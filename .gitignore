@@ -1,0 +1,6 @@
+test_images/*
+train_images/*
+train.csv
+.env
+saved_models/
+wandb/*

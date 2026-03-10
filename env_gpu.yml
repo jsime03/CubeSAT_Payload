@@ -1,0 +1,31 @@
+name: cloud_tf_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - numpy=1.26
+  - pandas=2.2
+  - scikit-learn=1.4
+  - matplotlib=3.8
+  - seaborn=0.13
+  - opencv=4.9
+  - pillow=10.2
+  - tqdm=4.66
+  - scipy=1.13
+  - jupyterlab=4.1
+  - pip
+  - pip:
+      - tensorflow[and-cuda]
+      - tensorflow-datasets==4.9.4
+      - albumentations==1.4.3
+      - tensorboard==2.15.1
+      - wandb
+      - keras-tuner==1.4.7
+      - pycocotools==2.0.7
+      - imageio==2.34.0
+      - einops==0.7.0
+      - rich==13.7.1
+      - python-dotenv==1.0.1
+      - transformers==4.40.0

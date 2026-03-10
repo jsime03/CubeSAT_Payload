@@ -2,5 +2,8 @@ test_images/*
 train_images/*
 train.csv
 .env
-saved_models/
 wandb/*
+Miniconda*
+Anaconda*
+__pycache__/
+*.pyc

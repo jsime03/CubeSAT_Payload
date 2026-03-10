@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.model_selection import KFold
 
 IMG_SIZE = (256, 384)
-BATCH_SIZE = 16
+BATCH_SIZE = 8
 NUM_CLASSES = 4
 CLASSES = ['Fish', 'Flower', 'Gravel', 'Sugar']
 

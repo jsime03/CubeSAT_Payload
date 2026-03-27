@@ -23,7 +23,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 
 NUM_CLASSES = 4
-IMG_SIZE    = (256, 384)  # (H, W)
+IMG_SIZE    = (256, 256)  # (H, W)
 
 
 # ============================================================
